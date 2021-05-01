@@ -1,0 +1,33 @@
+﻿FERNANDO BOHORQUEZ MAESTRE 
+fernando@cntrl.app | www.linkedin.com/in/fernando-bohorquez-maestre | 954-683-2824 
+PROFESSIONAL EXPERIENCE 
+Moxytech, Ann Arbor, MI 
+Data Engineer / Technical Lead                                                                    June 2020 – Present 
+* Designed and developed a data dashboard built around the serverless ecosystem, which cut costs for the company by automating data collection processes and was implemented at research labs at top universities (MIT, Michigan, Harvard) 
+* Built Moxytech’s machine learning strategy which attracted multiple big (100k+) clients and VC interest, expanding our TAM and competitive advantage 
+* Implemented diagnostic machine learning algorithms to help inform users about their conditions 
+CNTRL, Ann Arbor, MI                                                                   June 2018 – August 2020 
+CEO 
+* Led a 5 person team through the customer discovery process, gaining insight from 100+ potential customers, and achieving product-market fit in 7 weeks 
+* Created a go-to-market strategy and a viable early prototype tested on around 20 potential customers 
+* Cold called 12 computer science boot camps in Germany and the US to build potential partnerships
+* Selected to be a part of the TechTown accelerator and pitched to 20 local entrepreneurs and investors 
+European Innovation Academy, Cascais, Portugal                                            June 2019 – August 2019 Participant / CTO 
+* Recruited a global team of 4 from the U.S., China, Chile, and Portugal 
+* Led the product development process, successfully bringing the career roadmap idea to an MVP in less than 3 weeks, using rapid agile sprints 
+* Headed the technical side of investor pitching, answering technical questions, and modeling the MVP 
+COMMUNITY INVOLVEMENT 
+The People, Remote                                                                        March 2019 – Present Voting Rights Committee Member, Board Member 
+* Co-led the organization’s national voting information campaign which gained traction in 30+ states
+* Developed the voting rights report card website, leading a team of 6 through the process 
+* Co-leading strategy for national adoption in partnership with local and national organizations
+Civic Lab, Washington, DC                                                             January 2021 – Present Investment Advisory Committee Member 
+* Interviewed the CEOs of early civic nonprofits seeking mentorship and an unrestricted 100k in funding 
+* Advised Civic Lab on which organizations to bring onboard  
+Hispanic Scholarship Fund, Los Angeles, CA                                                March 2016 – Present Mentor 
+* Mentored 18 high performing hispanic college and high school students at national leadership conferences
+* One of five male HSF scholars selected as a Leaders in Education Scholar Finalist ~ 2017 
+SKILLS: SQL, Python, Web Development (JS, HTML, CSS, React, Node, Postman), C++, AWS development, Tableau, Machine Learning (Pytorch), Business (Customer Discovery, Leadership, Design Thinking) 
+CERTIFICATIONS: Google Analytics 2020
+EDUCATION 
+University of Michigan, Ann Arbor, MI – Bachelor of Science in Engineering May 2020 Major: Computer Science
