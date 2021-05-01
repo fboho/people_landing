@@ -15,6 +15,14 @@
     <link rel="stylesheet" href="assets/css/owl.theme.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-map.css">
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/geodata/usaLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body>
@@ -30,16 +38,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">root </a>
+        <a class="navbar-brand" href="#">Vote-o-Pedia </a>
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a class="page-scroll" href="#main">Home</a></li>
-                <li><a class="page-scroll" href="#services">Services</a></li>
-                <li><a class="page-scroll" href="#reviews">Reviews</a></li>
-                <li><a class="page-scroll" href="#pricing">Pricing</a></li>
-                <li><a class="btn btn-nav page-scroll wow fadeInDown" href="#download" data-wow-delay="0.3s"><span>Download App</span></a></li>
+                <!-- <li><a class="page-scroll" href="#services">Services</a></li>
+                <li><a class="page-scroll" href="#reviews">Reviews</a></li> -->
+                <li><a class="page-scroll" href="#main">The People</a></li>
+                <li><a class="btn btn-nav page-scroll wow fadeInDown" href="#download" data-wow-delay="0.3s"><span>Interactive Map</span></a></li>
             </ul>
           </div>
         </div>
@@ -49,17 +57,21 @@
         <div class="hero">
           <div class="container">
             <div class="row">
-              <div class="col-sm-7 col-md-5">
-                <div class="intro">
-                  <h1 class="wow fadeInDown" data-wow-delay="0.1s"><span>Voting Rights Report Card</span> Messaging about what we are doing</h1>
-                  <p class="wow fadeInDown" data-wow-delay="0.2s">Best in class live online platform for th better customer relation management</p>
+              <div class="col-sm-7 col-md-5 introcontainer">
+                <div class="intro introtext">
+                  <h1 class="wow fadeInDown" data-wow-delay="0.1s"><span>Vote-o-Pedia: The People’s Guide</span> to Voter Access & Election Integrity across the US.</h1>
+                  <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Open our interactive map to better understand the voting rights landscape, and take action!</p> -->
                   <button type="button" class="btn btn-action btn-fb wow fadeInDown" data-toggle="modal" data-target="#exampleModalCenter" data-wow-delay="0.3s">
                     <span><span><ion-icon name="map-outline" size="small" style='padding-right:5px'></ion-icon></span><span>  Launch Map</span></span>
                   </button>
-                  <a href="#" class="btn btn-action btn-fb wow fadeInDown" data-wow-delay="0.3s"><span></span><span><ion-icon name="map-outline" size="small" style='padding-right:5px'></ion-icon></span> <span>  Launch Map</span></a>
+                  <!-- <a href="#" class="btn btn-action btn-fb wow fadeInDown" data-wow-delay="0.3s"><span></span><span><ion-icon name="map-outline" size="small" style='padding-right:5px'></ion-icon></span> <span>  Launch Map</span></a> -->
                   <!-- <a href="#" class="btn btn-action btn-gplus wow fadeInDown" data-wow-delay="0.3s"><span><ion-icon name="compass-outline"></ion-icon></span> <span>Google Play</span></a> -->
                 </div>
               </div>
+              <!-- <div class="col-sm-7 col-md-7">
+                <div class="intro-img">
+                  <img src="assets/images/Group 2.png">
+              </div> -->
             </div>
           </div>
         </div><!-- Pi-Hero -->
@@ -70,187 +82,61 @@
             <div class="row text-center">
               <div class="col-sm-8 col-sm-offset-2">
                 <div class="points-intro text-center">
-                 <h1 class="wow fadeInDown">Our software features custom designed for startups to excel.</h1>
+                 <h1 class="wow fadeInDown">Our goal is to encourage everyone to think about how to make our elections better, so we can all vote and trust the results. We take the following into account. </h1>
                 </div>
               </div>
-              <div class="col-sm-4 wow fadeInDown" data-wow-delay="0.1s">
+              <div class="col-sm-3 wow fadeInDown" data-wow-delay="0.1s">
                 <div class="point-icon">
-                  <img src="assets/icons/1.png" width="45" alt="Feature">
+                  <span><ion-icon name="rocket-outline" size="large" style='padding-right:5px'></ion-icon></span>
                 </div>
                 <div class="point-text">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem Ipsum and something that can look good here. Lorem Ipsum and something that can look good here.</p>
+                  <h1>Campaigns</h1>
+                  <p>Subtopics: gerrymandering, political contributions and competitive candidates</p>
                 </div>
               </div>
-              <div class="col-sm-4 wow fadeInDown" data-wow-delay="0.1s">
+              <div class="col-sm-3 wow fadeInDown" data-wow-delay="0.1s">
                 <div class="point-icon">
-                  <img src="assets/icons/2.png" width="45" alt="Feature">
+                  <span><ion-icon name="people-outline" size="large" style='padding-right:5px'></ion-icon></span>
                 </div>
                 <div class="point-text">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem Ipsum and something that can look good here. Now this block looks really great in a way I guess.</p>
+                  <h1>Turnout</h1>
+                  <p>Subtopics: total turnout, youth turnout, minorities turnout</p>
                 </div>
               </div>
-              <div class="col-sm-4 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="col-sm-3 wow fadeInDown" data-wow-delay="0.2s">
                 <div class="point-icon">
-                  <img src="assets/icons/3.png" width="45" alt="Feature">
+                  <span><ion-icon name="key-outline" size="large" style='padding-right:5px'></ion-icon></span>
                 </div>
                 <div class="point-text">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem Ipsum and something that can look good here. Now this block looks really great in a way I guess.</p>
+                  <h1>Access</h1>
+                  <p>Subtopics: early voting on weekends, easy mail voting, methods to avoid fraud</p>
                 </div>
               </div>
-              <div class="col-sm-4 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="col-sm-3 wow fadeInDown" data-wow-delay="0.2s">
                 <div class="point-icon">
-                  <img src="assets/icons/4.png" width="45" alt="Feature">
+                  <span><ion-icon name="shield-checkmark-outline" size="large" style='padding-right:5px'></ion-icon></span>
                 </div>
                 <div class="point-text">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem Ipsum and something that can look good here. Lorem Ipsum and something that can look good here.</p>
-                </div>
-              </div>
-              <div class="col-sm-4 wow fadeInDown" data-wow-delay="0.3s">
-                <div class="point-icon">
-                  <img src="assets/icons/5.png" width="45" alt="Feature">
-                </div>
-                <div class="point-text">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem Ipsum and something that can look good here. Now this block looks really great in a way I guess.</p>
-                </div>
-              </div>
-              <div class="col-sm-4 wow fadeInDown" data-wow-delay="0.3s">
-                <div class="point-icon">
-                  <img src="assets/icons/6.png" width="45" alt="Feature">
-                </div>
-                <div class="point-text">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem Ipsum and something that can look good here. Lorem Ipsum and something that can look good here.</p>
+                  <h1>Integrity</h1>
+                  <p>Subtopics: official efforts to check for errors, efforts to disclose them when found</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="pitch-2">
-          <div class="container">
-            <div class="pitch-inner wow fadeInRight">
-              <h4>Why you need our pixel</h4>
-              <h1>Unmatched performance in the high-end Android range.</h1>
-              <p>Just kidding you have to pay every month or every year to get all the benefits
-                we mentioned everywhere. Everything comes at a cost.</p>
-
-              <button class="btn btn-primary btn-action" type="button"><span>Buy Now</span></button>
-            </div>
-          </div>
-        </div>
-
 
         <div class="features">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6">
-                <div class="features-text wow fadeInDown">
-                  <h2>Real time updates and activity demographics</h2>
-                    <p>I don't know what to type here so let me fill some random text. Lorem ipsum is hard to
-                      consume and I use it as a last resort. So, I'll fill random text please and you don't even
-                      have to read it.</p>
-                </div>
-              </div>
-              <div class="col-sm-6">
+              <div class="col-sm-7">
                 <div class="features-image wow fadeInRight">
-                  <img class="img-responsive" src="assets/images/feature.jpg" alt="Feature">
+                  <img class="img-responsive" src="assets/images/image2@2x.png" alt="Feature">
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="pricing" class="pricing-v2">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="intro wow fadeInDown" data-wow-delay="0.1s">
-                  <h4>Pricing</h4>
-                  <h1>Pick the right pricing plan for your needs</h1>
-                  <p>We have  very fair pricing policy that would benefit you and us at the same time.
-                    Get the free plan &amp; if you need more - pay.
-                  </p>
-                  <p>Have something big? <a href="#">Contact us</a></p>
-                </div>
-              </div>
-              <div class="col-sm-4 text-center">
-                <div class="table-left wow fadeInDown" data-wow-delay="0.2s">
-                  <div class="pricing-details">
-                    <h2>Free Plan</h2>
-                      <span>Free</span>
-                        <ul>
-                          <li>First basic feature </li>
-                          <li>Second feature goes here</li>
-                          <li>Any other third feature</li>
-                       </ul>
-                    <button class="btn btn-primary btn-action btn-edge" type="button"><span>Get Plan</span></button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4 text-center">
-                <div class="table-right wow fadeInDown" data-wow-delay="0.4s">
-                  <div class="pricing-details">
-                    <h2>Starter Plan</h2>
-                    <span>$29.99</span>
-                    <ul>
-                      <li>First premium feature </li>
-                      <li>Second premium feature</li>
-                      <li>Third premium feature</li>
-                    </ul>
-                    <button class="btn btn-primary btn-action" type="button"><span>Buy Now</span></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="reviews" class="review-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <div class="reviews owl-carousel owl-theme">
-                  <div class="review-single"><img class="img-circle" src="assets/icons/review-1.png" alt="Client Testimonoal" />
-                    <div class="review-text wow fadeInDown" data-wow-delay="0.2s">
-                      <p>Going to use some lorem here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
-                      <h3>- Thomas Young</h3>
-                      <h3>Vice President Primal Inc</h3>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                    </div>
-                  </div>
-                  <div class="review-single"><img class="img-circle" src="assets/icons/review-2.png" alt="Client Testimonoal" />
-                    <div class="review-text">
-                      <p>Going to use some lorem here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
-                      <h3>- Neil Harris</h3>
-                      <h3>President Proton LLC</h3>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-ios-star-half"></i>
-                    </div>
-                  </div>
-                  <div class="review-single"><img class="img-circle" src="assets/icons/review-3.png" alt="Client Testimonoal" />
-                    <div class="review-text">
-                      <p>Going to use some lorem here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
-                      <h3>- Alison Burgers</h3>
-                      <h3>CEO Marga Holdings</h3>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-star"></i>
-                      <i class="ion ion-ios-star-half"></i>
-                    </div>
-                  </div>
+              <div class="col-sm-5">
+                <div class="features-text wow fadeInDown">
+                  <h2>Close to real time updates from a non partisan source</h2>
+                    <p>The People is an organization which focuses on helping citizens across the country and political spectrum to find common ground. One of the common grounds is fair and secure voting. Get information you can trust from us and take action!</p>
                 </div>
               </div>
             </div>
@@ -260,15 +146,13 @@
         <div id="features" class="flex-split">
           <div class="f-left">
             <div class="left-content wow fadeInLeft" data-wow-delay="0s">
-              <h2 class="wow fadeInDown" data-wow-delay="0.1s"><span>Urbane</span> Messaging now got the next level</h2>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">Just get the code and sit tight, you'll witness its power and performance in lead conversion.
-                 Powerful and productive technology. Experience, then believe.</p>
-              <a href="#" class="btn btn-action wow fadeInDown" data-wow-delay="0.3s"><span>Know More</span></a>
+              <h2 class="wow fadeInDown" data-wow-delay="0.1s"><span>The</span> Time is Now!</h2>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">We have the power to fix the issues within government if we come together. Our voices and power only start at the polls. </p>
             </div>
           </div>
           <div class="f-right">
             <div class="video-icon hidden-xs text-center">
-              <a class="popup wow fadeInUp" data-wow-delay="0.2s" href="https://www.youtube.com/watch?v=6NC_ODHu5jg"><i class="ion-ios-play"></i></a>
+              <a class="popup wow fadeInUp" data-wow-delay="0.2s" href="https://www.youtube.com/watch?v=CvPX3uIjDAA"><i class="ion-ios-play"></i></a>
             </div>
           </div>
         </div>
@@ -279,46 +163,14 @@
             <div class="row text-center">
               <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <div class="cta-2-inner">
-                  <h1 class="wow fadeInDown" data-wow-delay="0.1s">Subscribe now and get lifetime premium access.</h1>
-                  <p class="wow fadeInDown" data-wow-delay="0.2s">Just kidding you have to pay every month or every year to get all the benefits
-                     we mentioned everywhere. Everything comes at a cost.</p>
+                  <h1 class="wow fadeInDown" data-wow-delay="0.1s">Contact Us For Feedback or Comments!!! </h1>
+                  <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Just kidding you have to pay every month or every year to get all the benefits
+                     we mentioned everywhere. Everything comes at a cost.</p> -->
                   <div class="subform wow fadeInDown" data-wow-delay="0.3s">
-                    <form id="signup" class="formee" action="assets/php/subscribe.php" method="post">
-    			            <input name="email" id="email" type="text" /><input class="right inputnew" type="submit" title="Send" value="Subscribe" />
-      		          </form>
-        		        <div id="response"></div>
+                    <h1>reportcard@thepeople.org</h1>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="download" class="download">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="dwnld-inner text-center">
-                  <div class="app-img">
-                   <img class="img-circle wow fadeInUp" src="assets/icons/favicon.png"  width="80" alt="App Logo" />
-                  </div>
-                  <div class="app-info wow fadeInUp">
-                    <h1 class="wow fadeInUp">Download Root App</h1>
-                    <h4>Engane with Root app and Entertain yourself with its cool features <br class="hidden-xs"> and use free messenger
-                    to interact with friends.</h4>
-                       <i class="ion ion-star"></i>
-                       <i class="ion ion-star"></i>
-                       <i class="ion ion-star"></i>
-                       <i class="ion ion-star"></i>
-                       <i class="ion ion-star"></i>
-                       <span>(349)</span>
-                   </div>
-                   <div class="download-buttons wow fadeInUp">
-                     <a href="#"><img src="assets/icons/appstore.png" width="150" alt="Download from App Store" /></a>
-                     <a href="#"><img src="assets/icons/playstore.png" width="150" alt="Download from Play Store" /></a>
-                   </div>
-                 </div>
-               </div>
             </div>
           </div>
         </div>
@@ -329,22 +181,21 @@
               <div class="col-sm-5">
                 <div class="ft-left">
                   <div class="footer-img">
-                     <img src="assets/icons/pi-logo.png" width="30" alt="Logo">
+                     <img src="assets/images/logo.jpeg" width="200" alt="Logo">
                   </div>
-                  <p>Cu qui probo malorum saperet. Ne admodum apeirian iracundia usu, eam cu agam ludus,
-                    eum munere accusam molestie ut. Alienum percipitur ne est, pri quando iriure ad. </p>
-                  <p>&copy; 2017 YDirection Themes by IOThemes</p>
+                  <p class="small-text bold">
+                    © Copyright 2021 All Rights Reserved<br>
+                  <a href="https://thepeople.org/privacy-policy/">Privacy Policy</a><br>
+                  The People is a registered 501(c)(3)                </p>
                 </div>
               </div>
               <div class="col-sm-4 col-sm-offset-3">
                 <div class="ft-right">
                   <ul>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Product Details</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Privacy policy</a></li>
-                    <li><a href="#">User Agreement</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Interactive Map</a></li>
+                    <li><a href="#">How we compile the data</a></li>
+                    <li><a href="#">Contact Us</a></li>
                   </ul>
                 </div>
               </div>
@@ -357,13 +208,32 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Map goes here!!!!</h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Voting Rights Map!!!</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-              ...
+            <div class="modal-body" style="min-width: 100%; min-height: 100%;">
+              <!-- <div class="container-fluid"> -->
+                <!-- <iframe src="https://player.vimeo.com/video/80836225?badge=0" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+                <iframe #window1 allowfullscreen="true" frameborder="0" src="https://voting-rights-map.herokuapp.com/" style="position: relative; min-width: 100%; min-height: 100vh;"></iframe>
+
+                <!-- <div class="card-group row">
+                  <div class="card col-md-9 col-s-12">
+                    <h4 class="card-title" style="text-align: center;">Voting Rights Map</h4>
+                    <div class="card-body text-center">
+                      <div id="chartdiv" style="height: 100vh;"></div>
+                    </div>
+                  </div>
+                  <div class="card col-md-3 bg-light col-s-12">
+                    <div class="card-body text-center scroll">
+                      <p class="card-text">Side Bar</p>
+                      <hr>
+                      <div id="weights-html"></div>
+                    </div>
+                  </div>
+                </div> -->
+              <!-- </div> -->
             </div>
             <!-- <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -376,6 +246,7 @@
 
 
     <!-- Jquery and Js Plugins -->
+    <script src="assets/js/index.js"></script>
     <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
